@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+
+html {
+  font-size: 62.5%; 
+  box-sizing: border-box;
+}
+body {
+  font: 1.6rem Russo One;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input textarea {
+  width:40vw;
+  height:30vh;
+  border:.2rem solid black;
+  padding-top:1rem;
+  padding-left: .5rem;
+  box-shadow: .3rem .6rem;
+}
+
+.preview {
+  width:60vw;
+  min-height:40vh;
+  border:.2rem solid black;
+  text-align: start;
+  padding-left: 1rem;
+  box-shadow: .3rem .6rem;
+}
+
