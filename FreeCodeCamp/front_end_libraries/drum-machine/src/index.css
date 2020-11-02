@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+  height: 100vh;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1rem solid #21618C;
+  width:30rem;
+  padding: 1rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+ 
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border:0.1rem solid #21618C;
+  height: 100%;
+  width:11rem;
+  box-shadow: 5px 8px #21618C;
+  
+}
+
+.display-vol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#21618C;
+  font-size: 1.6rem;
+  font-weight: 400;
+  width:10rem;
+  height:3rem;
+  border: .1rem solid #21618C;
+}
+
+#inpt{
+  -webkit-appearance: none;
+width: 90%;
+height:.4rem;
+background: #21618C;
+outline: none;
+margin-bottom:2.5rem;
+}
+#inpt::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: .7rem;
+  height: .7rem;
+  background: white;
+  border: 1px solid #21618C;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button {
+  background-color:white;
+  color:#21618C;
+  padding:1.6rem;
+  font-size:2rem;
+  outline: none;
+  border:0.1rem solid #21618C;
+  box-shadow: 0.2rem #21618C;
+  box-shadow: 5px 10px #21618C;
+  
+}
