@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+html {
+  font-size: 62.5%; 
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.6rem Helvetica;
+  height: 100vh;
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width:29.6rem;
+  height:44.7rem;
+}
+
+button {
+  font-size:1.8rem;
+  background-color: #4d4d4d;
+  color:#ffffff;
+  outline: 1px solid black;
+  border: none;
+  font-family: Share Tech Mono, monospace;
+}
+button:hover{
+  transform: scale(1.05);
+  color: black;
+  outline: 0.05em solid grey;
+
+}
+.buttons {
+ display:grid;
+ grid-template-columns:  7rem 7rem 7rem 7rem;
+ grid-template-rows:  7rem 7rem 7rem 7rem 7rem;
+ grid-gap: .08rem;
+}
+
+#ac {
+ grid-column: 1/3;
+ background-color: #ac3939;
+
+}
+
+#equals { 
+  grid-column:4;
+  grid-row:4/6;
+  background-color: #004466;
+}
+
+#zero {
+  grid-column: 1/3;
+}
+
+.operators {
+  background-color: #666666;
+}
+
+.screen {
+  
+  width:28.4rem;
+  margin-bottom: 0.5rem;
+  height:7.6rem;
+  text-align: right;
+}
+
+.second {
+  color:white;
+}
+
+.first {
+  color:orange;
+}
