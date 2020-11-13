@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1e555c;
+  color: #ffffff;
+  font-size: 30px;
+}
+.title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.time-control {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  margin: 10px;
+  justify-content: space-between;
+}
+.break-length {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.session-length {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.control-btn {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session {
+  border: 7px solid #13353a;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  height: 160px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.session-timer {
+  font-size: 80px;
+}
+
+.session-control {
+  width: 78px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.session-title {
+  font-size: 30px;
+}
