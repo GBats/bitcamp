@@ -1,0 +1,32 @@
+#main {
+    text-align: center;
+    font-size: 16px;
+  }
+  body {
+    font-size:16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  li {
+    margin: 16px 0;
+  }
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+  img {
+    max-width: 100%;
+    display:block;
+    height: auto;
+    margin: 0 auto;
+  }

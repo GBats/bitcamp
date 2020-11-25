@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header-img {
+  width: 200px;
+  height: 30px;
+}
+.navbar {
+  background-color: #ddd;
+  position: fixed;
+  width: 100vw;
+  top:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+.title {
+  text-align: center;
+}
+@media (max-width: 650px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  ul{
+      display:flex;
+      margin-right:0;
+  }
+  .grid .icon {
+    display: none;
+  }
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.subscribe > h2 {
+  padding-bottom: 20px;
+}
+
+.sub-button {
+  margin-top: 20px;
+  background-color: darkorange;
+  padding: 5px 10px;
+  border: none;
+  outline-style: none;
+}
+
+#features {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  width: 70%;
+  padding: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: darkorange;
+  width: 20vw;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.video {
+  max-width: 560px;
+  margin: 30px auto;
+}
+
+.video > iframe {
+  width: 100%;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 200px;
+  border: 0.5px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.level {
+  background-color: #eeeeee;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+}
+
+ol li {
+  padding: 5px;
+}
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.product > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+footer {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+}
