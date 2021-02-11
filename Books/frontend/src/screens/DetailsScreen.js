@@ -16,6 +16,7 @@ function DetailsScreen(props) {
     };
   }, []);
 
+
   const favHandler = (book) => {
     dispatch(favAction(book));
   };
